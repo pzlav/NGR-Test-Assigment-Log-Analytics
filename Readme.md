@@ -4,16 +4,18 @@ This project is designed as a test assignment for candidates. It involves starti
 
 ## Getting Started
 ### Dependencies
-Python 3.x
-ClickHouse or any preferred local database system capable of handling large datasets
-Install requirents txt file
+- Python 3.x
+- ClickHouse or any preferred local database system capable of handling large datasets
+- Install requirents.txt
+
 
 
 ### Executing the Project
-Start the generate.py script to begin log message generation:
+Start the `generate.py` script to begin log message generation.
+You can check messages using `listener.ps1` script or any other tool that can listen to port 10514.
 Collect messages from local port 10514. 
 
-# Implement your parsing and storage logic here
+## Tasks 
 - Parse the collected messages. This step will require creativity, as message formats can vary widely. You may need to write custom parsing functions based on observed patterns in the data.
 
 - Store the parsed messages in ClickHouse (or your chosen database). Ensure your database schema is designed to optimally store and query the data.
@@ -22,7 +24,7 @@ Collect messages from local port 10514.
 
 
 ## Contributing
-Contributions to this project are welcome. Please follow these steps to contribute:
+Contributions to this project are welcome. 
 
 
 ## License
